@@ -186,19 +186,27 @@ img
   padding: 20px 10px
   margin: 0 auto
 
-#banner
+.project
   display: block
   position: absolute
   top: 0
-  right: 10px
   z-index: 10
   padding: 10px 50px 10px 10px
   color: #fff
   background: #0090ff no-repeat 95% 50%
+  background: url("../images/blacktocat.png") no-repeat scroll 95% 50% #0090FF
   font-weight: 700
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
   border-bottom-left-radius: 2px
   border-bottom-right-radius: 2px
+
+#project-1
+  @extend .project
+  right: 2%
+
+#project-2
+  @extend .project
+  right: 23%
 
 #hero-unit
   background: #212121
