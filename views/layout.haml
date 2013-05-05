@@ -4,4 +4,19 @@
     %meta{ content: "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
     %link{ href: 'stylesheets/main.css', rel: 'stylesheet' }
   %body
+    #hero-unit.max-width
+      %header.inner
+        %a#project-1{ href: 'https://github.com/notalex/automux', target: '_blank' } automux
+        %a#project-2{ href: 'https://github.com/notalex/vim-run-live', target: '_blank' } vim-run-live
+        %h1.title Alex Johnson
+        %h2.tagline Ruby Lore Master
+        .phone
+          08306746566
+
     = yield
+
+    #footer.max-width
+      %footer.inner
+        .text
+          This site is best viewed by a Programmer
+        %a.source-link{ href: 'https://github.com/notalex/cover_letter', target: '_blank' } Source
