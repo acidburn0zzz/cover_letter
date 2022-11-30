@@ -6,15 +6,19 @@ GEM
       tilt
     haml-contrib (1.0.0)
       haml (>= 3.2.0.alpha.13)
-    rack (1.5.2)
-    rack-protection (1.5.0)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
+    ruby2_keywords (0.0.5)
     sass (3.2.8)
-    sinatra (1.4.2)
-      rack (~> 1.5, >= 1.5.2)
-      rack-protection (~> 1.4)
-      tilt (~> 1.3, >= 1.3.4)
-    tilt (1.3.7)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
+      tilt (~> 2.0)
+    tilt (2.0.11)
 
 PLATFORMS
   ruby
